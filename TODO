@@ -1,0 +1,13 @@
+TODO list, CARS:
+
+- Add descriptor of covariates - as smaller text always visibile
+- Questionnaire for test users
+- If have time - add graph showing relation to CHADVASC
+
+
+
+
+
+Decisions made
+- do not add CI or patient numbers - because this would not be useful in helping clinicians/patients make decisions
+- Christina send R code for forest plot of CHADVASC

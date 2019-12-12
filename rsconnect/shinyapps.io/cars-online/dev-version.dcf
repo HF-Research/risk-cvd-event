@@ -1,0 +1,10 @@
+name: dev-version
+title: dev-version
+username:
+account: cars-online
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 360840
+bundleId: 1524212
+url: https://cars-online.shinyapps.io/dev-version/
+when: 1533708218.94879

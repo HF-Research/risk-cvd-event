@@ -1,0 +1,379 @@
+/*Copied from bootstrop page */
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,400 300,700");
+:root {
+  --blue: #008cba;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #F04124;
+  --orange: #fd7e14;
+  --yellow: #E99002;
+  --green: #43ac6a;
+  --teal: #20c997;
+  --cyan: #5bc0de;
+  --white: #fff;
+  --gray: #888;
+  --gray-dark: #333;
+  --primary: #008cba;
+  --secondary: #eee;
+  --success: #43ac6a;
+  --info: #5bc0de;
+  --warning: #E99002;
+  --danger: #F04124;
+  --light: #eee;
+  --dark: #222;
+  --bleeding: #B73338;
+  --stroke: #1976D2;
+  --hfRed: #c8102E;
+  --hfRedBright: #dc1232;
+  --hfText: #454747;
+  --hfVeryLight: #f4f5f7;
+
+  --hfBlue: #325461;
+  --hfBlueLight: #e5e9eb;
+  --hfBlueMedium: #b2bfc3;
+
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.5375rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #222;
+  text-align: left;
+  background-color: #fff;
+}
+
+button {
+  border-radius: 0;
+}
+
+button:focus {
+  outline: 1px dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+}
+
+input,
+button,
+select,
+optgroup,
+textarea {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+button,
+select {
+  text-transform: none;
+}
+
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  padding: 0;
+  border-style: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+}
+
+input[type="date"],
+input[type="time"],
+input[type="datetime-local"],
+input[type="month"] {
+  -webkit-appearance: listbox;
+}
+
+/*END COPY FROM BOOTSTRAP */
+
+
+/*NABAR STYLING*/
+
+
+.navbar{
+  margin-bottom: 30px;
+}
+.navbar-default{
+  background-color: var(--hfRed);
+}
+
+
+
+.navbar-default .navbar-nav>li>a:hover{
+  background-color: var(--hfRedBright);
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a{
+  font-weight: 600;
+  color: white;
+}
+
+.navbar-default .navbar-brand, .navbar-default .navbar-brand:hover{
+  font-weight: 600;
+  font-size: 1.5em;
+  color: white;
+}
+
+.navbar-default .navbar-nav>li>a{
+  border-right: 1px solid #d6453d;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+  font-weight: 600;
+  color: var(--hfRed);
+  background-color: white;
+}
+
+
+/* TABSET STYLING*/
+.tabbable > .nav > li[class=active] >a{
+  background-color: var(--hfBlue);
+  color: white;
+  font-weight: 600;
+}
+
+.tabbable > .nav > li > a{
+  background-color: var(--white);
+  border-color: var(--hfBlueLight);
+  color: var(--hfBlue);
+  font-weight:600;
+}
+
+.nav-pills{
+  margin-bottom: 10px;}
+
+
+label{
+  font-size:1.5rem;
+  font-weight: 600;
+  margin-bottom:0px;
+  margin-top:5px;
+}
+
+/**** BUTTON STYLES *****/
+
+.btn.radiobtn.btn-default.active {
+  background-color:var(--hfBlue);
+  border-color:var(--hfBlue);
+  font-weight:bold;
+  color:white;
+  font-size: 1.5rem;
+  padding-right:5px;
+  padding-left:5px;
+}
+
+.btn.radiobtn.btn{
+  height: 35px;
+}
+
+.btn.radiobtn.btn-default {
+  background-color: var(--white);
+  border-color: var(--hfBlueLight);
+  color:var(--hfBlue);
+  font-size:1.5rem;
+  font-weight:600;
+  ;
+}
+
+.btn.radiobtn.btn-default:hover {
+  background-color: var(--hfBlueMedium);
+  border-color: var(--hfBlueMedium);
+  color:white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding-right:5px;
+  padding-left:5px;
+}
+
+.btn.radiobtn.btn-default.active:hover {
+  background-color:var(--hfBlue);
+  border-color:var(--hfBlue);
+  font-weight:bold;
+  color:white;
+  font-size: 1.5rem;
+
+}
+
+
+.container-fluid {
+  margin:auto;
+  max-width: 1060px
+}
+
+.well{
+  background-color:white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.row{
+  margin-left:-10px;
+  margin-right:-10px;
+}
+
+.results_well {
+  background-color:white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.results_header {
+ font-size: 2.5rem;
+ font-weight: bold;
+ line-height: 1.2;
+}
+
+.output_desc {
+  line-height: 1.2;
+  font-size: 2.1rem;
+
+}
+
+.explanitory_text{
+  font-size:1.6rem;
+}
+.ref{
+  font-size: 1.2rem;}
+
+
+#user_age {
+  font-size:3.5rem;
+  height:50px;
+  width: 110px;
+  background-color:#efefef;
+  border-color:#efefef;
+}
+
+#user_age:hover {
+  font-size:3.7rem;
+  height:50px;
+  width: 110px;
+  background-color:#e8e3e3;
+  border-color:#e8e3e3;
+  line-height:50px;
+
+}
+
+#input_col {
+  max-width:360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#in_prevDiag {
+  font-size: 1.9rem;
+  font-weight: 700;
+}
+
+
+#results {
+  max-width:520px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+#results_bleeding_well {
+  background-color:#c8e6c9;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#results_gauge {
+  min-height: 220px;
+}
+
+
+/* STYLE FOR BOARD */
+
+#board-inner {
+  padding: 0px;
+  display: block;
+  max-width: 240px;
+  margin-left:auto;
+  margin-right:auto;
+  background: #fff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 0px solid #aaa;
+}
+@media only screen and (max-width: 460px) {
+  #board-inner {
+    padding: 1px;
+  }
+}
+.board-row {
+  display: block;
+  margin-left:auto;
+  margin-right:auto;
+}
+.board-cell {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  cursor: pointer;
+
+  border-radius: 1rem;
+  -moz-border-radius: 1rem;
+  -webkit-border-radius: 1rem;
+}
+
+
+
+
+
+.board-cell.off {
+  background: #009900;
+}
+.board-cell.on {
+  background: #CD0000;
+}
+.board-cell.off:hover {
+  background: #3AB903;
+}
+.board-cell.on:hover {
+  background: #CD0000;
+  background: -webkit-linear-gradient(rgb(66, 255, 66), #065006);
+  background: -moz-linear-gradient(rgb(66, 255, 66), #065006);
+  background: radial-gradient(rgb(66, 255, 66), #065006);
+}
+
+
+@media only screen and (max-width: 550px) {
+  #congrats {
+    font-size: 30px;
+  }
+}
