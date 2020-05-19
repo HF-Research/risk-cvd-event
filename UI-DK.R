@@ -4,15 +4,15 @@
 # Var names should not contain "." due to conflicts with JavaScript
 
 # TITLE -------------------------------------------------------------------
-prj_title <- "CARB"
+prj_title <- "CVD risiko"
 subtitle_txt <- "Calculator of Absolute Risk of Bleeding"
-ui_stroke_title <- enc2utf8("Apopleski")
-ui_bleeding_title <- enc2utf8("Blødning")
+
+ui_tab1_title <- enc2utf8("CVD risk")
 ui_about_title <- enc2utf8(paste0("Om ", prj_title))
 
 # INPUT UI ------------------------------------------------------------------
 input_title <- "1. INPUT"
-in_age <- "Patientens alder (mellem 20 og 99):"
+in_age <- "Patientens alder (mellem 35 og 99):"
 in_sex <- "Køn"
 
 
